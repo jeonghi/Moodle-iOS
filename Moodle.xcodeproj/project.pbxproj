@@ -17,6 +17,7 @@
 		5B721BBC2B3EDEE60051825A /* MoodleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B721BBB2B3EDEE60051825A /* MoodleTests.swift */; };
 		5B721BC62B3EDEE60051825A /* MoodleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B721BC52B3EDEE60051825A /* MoodleUITests.swift */; };
 		5B721BC82B3EDEE60051825A /* MoodleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B721BC72B3EDEE60051825A /* MoodleUITestsLaunchTests.swift */; };
+		5B721BD62B3EE5600051825A /* UIColor+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B721BD52B3EE5600051825A /* UIColor+Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		5B721BC12B3EDEE60051825A /* MoodleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoodleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B721BC52B3EDEE60051825A /* MoodleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodleUITests.swift; sourceTree = "<group>"; };
 		5B721BC72B3EDEE60051825A /* MoodleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5B721BD52B3EE5600051825A /* UIColor+Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Constants.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		5B721BA02B3EDEE50051825A /* Moodle */ = {
 			isa = PBXGroup;
 			children = (
+				5B721BD42B3EE5500051825A /* Extensions */,
 				5B721BA12B3EDEE50051825A /* AppDelegate.swift */,
 				5B721BA32B3EDEE50051825A /* SceneDelegate.swift */,
 				5B721BA52B3EDEE50051825A /* ViewController.swift */,
@@ -128,6 +131,14 @@
 				5B721BC72B3EDEE60051825A /* MoodleUITestsLaunchTests.swift */,
 			);
 			path = MoodleUITests;
+			sourceTree = "<group>";
+		};
+		5B721BD42B3EE5500051825A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5B721BD52B3EE5600051825A /* UIColor+Constants.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +275,7 @@
 				5B721BA62B3EDEE50051825A /* ViewController.swift in Sources */,
 				5B721BA22B3EDEE50051825A /* AppDelegate.swift in Sources */,
 				5B721BA42B3EDEE50051825A /* SceneDelegate.swift in Sources */,
+				5B721BD62B3EE5600051825A /* UIColor+Constants.swift in Sources */,
 				5B721BAC2B3EDEE60051825A /* Moodle.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
