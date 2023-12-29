@@ -103,9 +103,8 @@
 		5B721BA02B3EDEE50051825A /* Moodle */ = {
 			isa = PBXGroup;
 			children = (
+				5B721BD82B3EE8A20051825A /* Application */,
 				5B721BD42B3EE5500051825A /* Extensions */,
-				5B721BA12B3EDEE50051825A /* AppDelegate.swift */,
-				5B721BA32B3EDEE50051825A /* SceneDelegate.swift */,
 				5B721BA52B3EDEE50051825A /* ViewController.swift */,
 				5B721BA72B3EDEE50051825A /* Main.storyboard */,
 				5B721BAD2B3EDEE60051825A /* Assets.xcassets */,
@@ -139,6 +138,15 @@
 				5B721BD52B3EE5600051825A /* UIColor+Constants.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5B721BD82B3EE8A20051825A /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				5B721BA12B3EDEE50051825A /* AppDelegate.swift */,
+				5B721BA32B3EDEE50051825A /* SceneDelegate.swift */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
